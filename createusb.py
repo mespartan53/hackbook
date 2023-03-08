@@ -25,6 +25,7 @@ def create_bootable_usb(iso_file, usb_drive):
 	subprocess.run(["diskutil", "unmount", usb_drive2])
 
 	print("Please restart and boot to Kali. Hold option when the device starts up")
+	return
 
 
 #probably make arg 1 constant and just figure out arg 2 with diskutil list
