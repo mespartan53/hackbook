@@ -10,3 +10,4 @@ def download_kali():
         f.write(response.content)
 
     print("Downloaded Kali successfully!")
+    return
